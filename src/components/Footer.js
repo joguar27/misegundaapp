@@ -1,8 +1,16 @@
+import Nav from './Nav'
+
 const Footer = () => {
   return (
-      <Footer>
+      <footer>
         <p>Copyright &copy; 2022</p>
-      </Footer>
+        {/* <nav className="header__navbar">
+        <a className="header__link" href="#">Inicio</a>
+        <a className="header__link" href="#">Nosotros</a>
+        <a className="header__link" href="#">Contacto</a>
+      </nav> */}
+      <Nav/>
+      </footer>
   )
 }
 export default Footer
