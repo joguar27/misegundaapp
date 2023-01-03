@@ -9,7 +9,10 @@ const Footer = () => {
         <a className="header__link" href="#">Nosotros</a>
         <a className="header__link" href="#">Contacto</a>
       </nav> */}
-      <Nav/>
+      <Nav
+          textLinkFooter="Facebook"
+          hrefLinkFooter="https://facebook.com/"
+      />
       </footer>
   )
 }

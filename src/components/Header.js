@@ -1,8 +1,9 @@
 import Nav from "./Nav";
 
-const isHeader = true;
-
 const Header = () => {
+
+  const isHeader = true;
+
   return (
     <header className="header">
       <h1 className="header__title">JOGUAR</h1>
@@ -12,3 +13,4 @@ const Header = () => {
 }
 
 export default Header
+

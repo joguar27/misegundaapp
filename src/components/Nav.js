@@ -1,5 +1,5 @@
-const Nav = (parametro) => {
-  if (parametro.isHeader) {
+const Nav = (props) => {
+  if (props.isHeader) {
     return (
       <nav className="header__navbar">
         <a className="header__link" href="#">
@@ -16,7 +16,7 @@ const Nav = (parametro) => {
   } else {
     return (
       <nav className="header__navbar">
-        <a href="#">facebook</a>
+        <a href={props.hrefLinkFooter}>{props.textLinkFooter}</a>
       </nav>
     )
   }
