@@ -1,5 +1,6 @@
 const Nav = (props) => {
-  if (props.isHeader) {
+  const { isHeader, hrefLinkFooter, textLinkFooter } = props
+  if (isHeader) {
     return (
       <nav className="header__navbar">
         <a className="header__link" href="#">
@@ -11,8 +12,9 @@ const Nav = (props) => {
         <a className="header__link" href="#">
           Contacto
         </a>
+        <span className="material-icons">shopping_cart</span>
       </nav>
-    );
+    )
   } else {
     return (
       <nav className="header__navbar">
