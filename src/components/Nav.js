@@ -1,5 +1,5 @@
 const Nav = (props) => {
-  const { isHeader, hrefLinkFooter, textLinkFooter } = props
+  const { isHeader, hrefLinkFooter, textLinkFooter } = props;
   if (isHeader) {
     return (
       <nav className="header__navbar">
@@ -14,13 +14,13 @@ const Nav = (props) => {
         </a>
         <span className="material-icons">shopping_cart</span>
       </nav>
-    )
+    );
   } else {
     return (
       <nav className="header__navbar">
         <a href={props.hrefLinkFooter}>{props.textLinkFooter}</a>
       </nav>
-    )
+    );
   }
-}
-export default Nav
+};
+export default Nav;

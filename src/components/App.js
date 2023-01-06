@@ -1,16 +1,14 @@
-import Footer from "./Footer"
-import Header from "./Header"
-import ItemListContainer from "./ItemListContainer"
-import Main from "./Main"
+import Footer from "./Footer";
+import Header from "./Header";
+import Main from "./Main";
 
 const App = () => {
   return (
     <>
-      <Header/>
-      <Main/>
-      <ItemListContainer greeting="Bienvenido a Joguar Rent a Car"/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Footer />
     </>
-  )
-}
+  );
+};
 export default App;
