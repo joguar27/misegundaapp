@@ -1,6 +1,53 @@
 import { useEffect, useState } from "react";
 
-const ItemListContainer = (props) => {
+const ItemListContainer = (props) => { //reagregar (props) para que funcione
+
+
+
+
+
+
+  //prueba de api
+// const [load, setLoad] = useState([false]);
+// const [productos, setProductos] = useState([]) 
+// useEffect(() => {
+//     const pedido = fetch("https://fakestoreapi.com/products")
+//     .then((respuesta) => {
+//      const productos = respuesta.json()
+//      return productos
+//     })
+//     .then((productos) => {
+//       //console.log(productos)
+//        setProductos(productos)
+//        setLoad(true)  
+//     })
+//     .catch((error) => {
+//      console.log(error)
+//     })
+//     //.finally(() => setLoad(true))
+// },[])
+// return (
+//     <div>
+//         {load ? "Productos Cargados" : "Cargando..."}
+//         {productos.map((producto)=>{
+//             return(
+//                  <article>
+//                      <h3>{producto.title}</h3>
+//                  </article>  
+//              )
+//         })}
+//     </div>
+// )
+
+
+
+
+
+
+
+
+
+
   //const miEstado = useState(0);
   //const contador = miEstado[0];
   //const cambiarContador = miEstado[1];
@@ -14,7 +61,7 @@ const ItemListContainer = (props) => {
   //useEffect(()=>{
   //  console.log("useEffect")
   //})
-
+//descomentar lineas 45/46/47/48
   const [cargo, setCargo] = useState(false);
   const [productos, setProductos] = useState([]);
   const [productosFiltrados, setProductosFiltrados] = useState([]);
@@ -39,7 +86,7 @@ const ItemListContainer = (props) => {
       setProductosFiltrados(ejemploProductos);
     }, 2000);
   }, []);
-
+//descomentar lineas 66/67/68
 //const arr = [1,2,3]
 
 
@@ -143,5 +190,5 @@ const handleFilter= (e) => {
   //     </div>
   //   );
 };
-
+//descomentar linea 172
 export default ItemListContainer;

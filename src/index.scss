@@ -19,7 +19,7 @@ html, body, #root{
 .header{
     background-color: #6f67db;
     color: white;
-    padding: 1rem .5rem;
+    padding: 1rem 1.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +28,8 @@ html, body, #root{
         text-decoration: none;
         color: white;
         font-size: 1.2rem;
-        margin-left: 1rem;
+        margin-left: .5rem;
+        margin-right: 1.5rem;
     }
 }
 
@@ -41,7 +42,7 @@ main {
 footer{
     background-color: #6f67db;
     color: white;
-    padding: 1rem .5rem;
+    padding: 1rem 1.5rem;
     font-size: .5rem;
 }
 

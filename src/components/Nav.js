@@ -12,6 +12,7 @@ const Nav = (props) => {
         <a className="header__link" href="#">
           Contacto
         </a>
+        <span className="counter-cart">100</span>
         <span className="material-icons">shopping_cart</span>
       </nav>
     );
@@ -24,3 +25,7 @@ const Nav = (props) => {
   }
 };
 export default Nav;
+
+
+
+
